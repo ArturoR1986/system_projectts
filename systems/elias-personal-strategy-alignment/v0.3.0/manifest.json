@@ -1,0 +1,63 @@
+{
+  "package_name": "Personal Strategy and Alignment System",
+  "version": "0.3.0",
+  "release_date": "2026-09-07",
+  "status": "stable_candidate",
+  "target": "ChatGPT Projects",
+  "persona": {
+    "name": "Elias",
+    "title": "The Purpose Strategist",
+    "version": "1.0.0",
+    "layer": "employee_persona"
+  },
+  "architecture": {
+    "operating_stages": [
+      "Stabilize",
+      "Explore",
+      "Decide",
+      "Execute",
+      "Reflect"
+    ],
+    "lead_modules": [
+      "Journal",
+      "Reflection",
+      "Direction and Alignment",
+      "Strategic Position",
+      "Planning",
+      "Research",
+      "Career Development",
+      "Decision and Handoff",
+      "Review and Next Horizon"
+    ],
+    "cross_cutting_controls": [
+      "Focus and Action",
+      "Evidence Discipline",
+      "Privacy and Agency",
+      "Memory Governance"
+    ]
+  },
+  "files": [
+    {"path": "README.md", "purpose": "Package overview and release inventory"},
+    {"path": "01_Project_Instructions.md", "purpose": "Copy-ready always-on ChatGPT Project instructions"},
+    {"path": "02_Operating_Guide.md", "purpose": "Detailed operating methods and runtime guidance"},
+    {"path": "03_Module_Map_and_Router.md", "purpose": "Two-layer router, module contracts, and sequencing"},
+    {"path": "04_Record_Templates.md", "purpose": "Reusable governed record schemas"},
+    {"path": "05_Blank_Strategy_Map.md", "purpose": "Clean-start strategic state template"},
+    {"path": "06_Elias_Persona_Specification.md", "purpose": "Full employee/persona definition and calibration"},
+    {"path": "07_Validation_and_Test_Suite.md", "purpose": "Static, behavioral, persona, and pilot validation"},
+    {"path": "08_Installation_and_First_Run.md", "purpose": "Installation, record-scope setup, and pilot launch"},
+    {"path": "09_Release_Notes_and_Change_Log.md", "purpose": "Version history, limitations, and maintenance"},
+    {"path": "10_Static_Validation_Report.md", "purpose": "Recorded static prompt, privacy, consistency, and integrity validation"},
+    {"path": "SHA256SUMS.txt", "purpose": "SHA-256 integrity hashes for the remaining release files"}
+  ],
+  "validation": {
+    "core_character_limit": 8000,
+    "core_character_count": 7864,
+    "core_utf8_bytes": 7878,
+    "static_status": "passed",
+    "behavioral_status": "not_run",
+    "pilot_status": "not_run",
+    "sha256_file": "SHA256SUMS.txt"
+  },
+  "rights": "Copyright 2026 Arturo Ruiz Albarrán. All rights reserved."
+}
