@@ -1,0 +1,78 @@
+system:
+  name: ENL GPT Architect
+  version: 3.1.0-RC3
+  status: release_candidate
+  identity_major: 3
+  canonical_runtime: ChatGPT Project
+  canonical_operational_source: private_git_repository_after_migration
+  sovereign_backup: local_private_archive
+project_instructions:
+  path: PROJECT_INSTRUCTIONS.md
+router:
+  path: router/00_ENL_3_Module_Map_and_Router.md
+  version: 3.1.0-RC3
+classification_rule:
+  numeric_prefix: stable_identifier_and_sort_order
+  authority: manifest
+  note: Module classification is declared here; it is not inferred from numeric range.
+active_modules:
+- {id: '01', class: core, path: modules/core/01_Architect_Gate_and_Clarity_Lock.md}
+- {id: '02', class: core, path: modules/core/02_Challenge_Pass.md}
+- {id: '03', class: core, path: modules/core/03_Evidence_Ladder.md}
+- {id: '04', class: core, path: modules/core/04_ENL_Symbolic_Pattern_Engine.md}
+- {id: '05', class: core, path: modules/core/05_Positive_Compression.md}
+- {id: '06', class: core, path: modules/core/06_Load_Bearing_Compression.md}
+- {id: '07', class: core, path: modules/core/07_Prompt_Audit_and_Quality_Check.md}
+- {id: '08', class: core, path: modules/core/08_Designer_Mode_Workflows.md}
+- {id: '09', class: core, path: modules/core/09_Engineer_Mode_Build_and_Ship.md}
+- {id: '10', class: core, path: modules/core/10_Output_Templates.md}
+- {id: '11', class: core, path: modules/core/11_Test_Cases_and_Evaluation.md}
+- {id: '12', class: support, path: modules/support/12_Source_Library_and_Knowledge_Management.md}
+- {id: '13', class: support, path: modules/support/13_Memory_Context_and_Continuity.md}
+- {id: '14', class: support, path: modules/support/14_Ethics_Privacy_and_Agency_Guardrails.md}
+- {id: '15', class: support, path: modules/support/15_Module_Interaction_and_Workflow_Orchestration.md}
+- {id: '16', class: support, path: modules/support/16_Command_Activation_and_User_Interface.md}
+- {id: '17', class: support, path: modules/support/17_System_Maintenance_Versioning_and_Change_Control.md}
+- {id: '18', class: support, path: modules/support/18_Final_Integration_and_Launch_Readiness.md}
+- {id: '19', class: support, path: modules/support/19_Runtime_Operations_and_Response_Protocol.md}
+- {id: '20', class: domain, path: modules/domain/20_Website_Product_Architect.md}
+- {id: '23', class: domain, path: modules/domain/23_PeakLogic_Business_Architect.md}
+- {id: '25', class: domain, path: modules/domain/25_Custom_GPT_Builder.md}
+- {id: '26', class: domain, path: modules/domain/26_Agent_Department_and_Team_Architecture.md}
+- {id: '27', class: support, path: modules/support/27_Capability_Intake_and_Placement_Protocol.md}
+- {id: '28', class: support, path: modules/support/28_Skills_and_Capability_Architecture.md}
+reserve_modules:
+- {id: '22', path: reserve/22_ARTERO_PARE_Research_Workflow.md}
+- {id: '24', path: reserve/24_Roofing_Field_Report_System.md}
+separate_project_modules:
+- {id: '21', path: separate_projects/21_Computer_Vision_Tutor.md}
+registries:
+  capability_registry: registries/CAPABILITY_REGISTRY.md
+  parking_lot_registry: registries/PARKING_LOT_REGISTRY.md
+governance:
+  asset_sovereignty: governance/Asset_Sovereignty_and_IP_Governance.md
+skills:
+- {id: SKILL-IP-001, path: skills/IP_Registration_and_Provenance.md}
+contracts:
+  change_set: contracts/SYSTEM_CHANGE_SET_CONTRACT.md
+system_capabilities:
+- {id: SYS-CAP-CONTINUITY, name: Memory and Continuity, owners: ['13']}
+- {id: SYS-CAP-PARKING, name: Parking Lot Continuity, owners: ['13','15','16']}
+- {id: SYS-CAP-RHYTHM, name: Rhythmic Modular Activation, owners: ['19','15','00','11'], status: release_candidate}
+- {id: SYS-CAP-CAPABILITY-GOV, name: Capability Classification and Promotion, owners: ['27','28','11','17']}
+- {id: SYS-CAP-SOVEREIGNTY, name: Asset Sovereignty and Release Governance, owners: [governance]}
+references:
+  rhythmic_activation_study: references/ENL_Tarot_and_Rhythmic_Activation_Study_Guide.md
+  peaklogic_grounding: references/PeakLogic_Grounding_Strategy.md
+persona:
+  name: Aurelian — The Critical Systems Steward
+  functional_role: Systems Architect / Critical Steward
+  path: persona/Aurelian_Critical_Systems_Steward.md
+  integration_contract: persona/Aurelian_Integration_Contract.md
+  validation_suite: tests/AURELIAN_PERSONA_TEST_SUITE.md
+  status: release_candidate
+  layer: behavioral_reasoning_persona
+  authority: subordinate_to_system_governance_and_user_authority
+provenance:
+  aurelian_source_handoff: release/source_handoffs/Aurelian_Persona_v0_1_0
+  aurelian_symbolic_design_source: release/persona/Aurelian_Reading_Provenance.md
