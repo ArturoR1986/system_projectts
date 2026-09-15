@@ -1,0 +1,18 @@
+{
+  "package": "GPT Architect Persona ENL Handoff",
+  "version": "0.1.0",
+  "date": "2026-09-09",
+  "target_system": "GPT Architect",
+  "persona": "Systems Architect / Critical Steward",
+  "status": "Integration Candidate",
+  "creator": "Arturo Ruiz Albarrán with ChatGPT-assisted synthesis",
+  "files": [
+    {"name":"00_README_HANDOFF.md","sha256":"297d8a986bb412b1357566f63590d253123cb05c03b917de97875ddcfe3a1444","bytes":3114},
+    {"name":"01_PERSONA_SPECIFICATION.md","sha256":"604fda5e24aa0504fd48272de5f2f31e3d1d2189211b616b36f3eca07ea5c12a","bytes":8493},
+    {"name":"02_INTEGRATION_CONTRACT.md","sha256":"01558c06a8a7f9cbfb4adb028333985798f82e7c7e280b440a37ca9d06944dcf","bytes":4226},
+    {"name":"03_BEHAVIOR_AND_ROUTING_RULES.md","sha256":"13e188e2edddf6ae71311f6826cba3de33a03c8de8bd703a880acc2b1bc2c8e6","bytes":3678},
+    {"name":"04_VALIDATION_AND_TEST_SUITE.md","sha256":"efa3c906307a8c5d12cea4f4420d4968d66c14763c5ae8725b2db9ae321b8e3f","bytes":5631},
+    {"name":"05_ENL_INSTALLATION_PROMPT.md","sha256":"a26b431e7f312fc06c2c249ef6f7efdf87ba8b8a83065948ae136ca23317d498","bytes":3203},
+    {"name":"06_READING_PROVENANCE.md","sha256":"b7952d60cf9f0ac2b395a2e74f784f03101e9f05cf1bd85da2be69de72aaafcf","bytes":2318}
+  ]
+}
