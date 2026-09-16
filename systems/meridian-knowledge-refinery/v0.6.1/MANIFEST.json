@@ -1,0 +1,149 @@
+{
+  "system": "Knowledge Refinery",
+  "persona": "Meridian — Custodian of the Reoriented Archive",
+  "version": "0.6.1",
+  "baseline": "Transcript Dissector / Transcript Agent v0.5.2",
+  "status": "Stable Candidate",
+  "project_instructions_chars": 6005,
+  "runtime_project_sources": 17,
+  "checks": {
+    "core_under_8000": true,
+    "mandatory_router_rule_present": true,
+    "meridian_permanent": true,
+    "stale_runtime_persona_reference_removed": true,
+    "source_as_data_fail_safe": true,
+    "router_authority_contract": true,
+    "route_receipt_present": true,
+    "provenance_module_present": true,
+    "archive_module_present": true,
+    "important_work_continuity_required": true,
+    "transcript_preservation_delivery_distinguished": true,
+    "transcript_delivery_tests_present": true,
+    "e2e_test_present": true,
+    "router_refs_resolve": true,
+    "source_count_under_25": true,
+    "enl_reference_sources_excluded_from_runtime": true
+  },
+  "files": [
+    {
+      "name": "00B_Core_Behavior_Reference_v0.6.1.md",
+      "bytes": 4214,
+      "sha256": "25558c6771a333b9a629aab4a067cf7a11587bf6e0f36addea95d79f4e27ff4f"
+    },
+    {
+      "name": "00_Knowledge_Refinery_Main_Router_v0.6.1.md",
+      "bytes": 6034,
+      "sha256": "603a573700cdbcb04bedd588e69e79ec2b4f2683f799c1b1874f851d69b8485a"
+    },
+    {
+      "name": "01_Transcript_Intake_and_Source_Boundary_v0.6.1.md",
+      "bytes": 2640,
+      "sha256": "0c7967bbbc44583d98b156073609ff362ab368045b3aa707de45ce369fdb1b2f"
+    },
+    {
+      "name": "02_Clean_Reconstruction_and_Sectioning_v0.6.1.md",
+      "bytes": 2209,
+      "sha256": "813f8c0c08cb86c9b6c2a167f0d6bdbc3b70cd365b9748b66b5aa4888e34330e"
+    },
+    {
+      "name": "03_Core_Dissector_and_Study_Notes_v0.6.1.md",
+      "bytes": 1789,
+      "sha256": "00c0285a2e3138c9505f24a235cee5d44a308d72d75c1025a312831b99bd48e5"
+    },
+    {
+      "name": "04_Gem_Detection_and_Candidate_Discovery_v0.6.1.md",
+      "bytes": 2060,
+      "sha256": "a502b20b6f3343aaddcc8d86b3b67e7e4f294dd76ac4da6aa21938aea88e4dfe"
+    },
+    {
+      "name": "05_Evidence_Claim_and_Verification_Ladder_v0.6.1.md",
+      "bytes": 2120,
+      "sha256": "eb9da5a45b6fb6078ee843b4ca3d07298c417a01bf08f569175bcd070c0569eb"
+    },
+    {
+      "name": "06_Knowledge_Classification_and_Candidate_Gate_v0.6.1.md",
+      "bytes": 2312,
+      "sha256": "b7b67d7639849f473110b9224bc2836c58dbce4ddfd85281fb0f190b505ab029"
+    },
+    {
+      "name": "07_Output_Templates_and_Direction_Options_v0.6.1.md",
+      "bytes": 2368,
+      "sha256": "112c7629b66a1b54daed4765cc1d7f1d491fc342f383f501575348d0681ab7b6"
+    },
+    {
+      "name": "08_Knowledge_Library_Connection_and_Routing_v0.6.1.md",
+      "bytes": 2170,
+      "sha256": "b2329ae2363db68a6f35fdd4fedb6b6ba512f602939b2b7f7dc8f3c9fbf920ba"
+    },
+    {
+      "name": "09_Capability_Registry_and_User_Menu_v0.6.1.md",
+      "bytes": 1984,
+      "sha256": "1857769dda615c7e1b6f9e77e95f79ffcfd47ef043508ceeab591050675a42b1"
+    },
+    {
+      "name": "10_ENL_PeakLogic_Research_Handoff_Contracts_v0.6.1.md",
+      "bytes": 2115,
+      "sha256": "75c9b582468068f28e6a2289a7dee8829d8d09a45d00d62d984adfcb69cfa077"
+    },
+    {
+      "name": "11_Explicit_Build_Mode_and_Draft_Artifact_Generator_v0.6.1.md",
+      "bytes": 2210,
+      "sha256": "20c78e9926e6ffe7e68a1aac27aa4768ad7ac8bb92247ebb4f7707ee61adedb9"
+    },
+    {
+      "name": "12_System_Audit_Testing_and_Maintenance_v0.6.1.md",
+      "bytes": 5990,
+      "sha256": "0fabc2faeb9be2ca680c518b0e0b910074ccd9cd42ff844ea1b2ac56eebed98f"
+    },
+    {
+      "name": "13_Meridian_Persona_and_Control_Layer_v0.6.1.md",
+      "bytes": 2621,
+      "sha256": "4f7eba700c45899ab8bf2b701aad77c0f8ec0be617513d4fe82c68e107221db7"
+    },
+    {
+      "name": "14_Provenance_and_Transformation_Trace_v0.6.1.md",
+      "bytes": 1904,
+      "sha256": "1d1974d791b6bfe64be94c8452aa7a6b1c991fb8a50029dbf2c6908d5ff4fb5d"
+    },
+    {
+      "name": "15_Ledger_Archive_and_Reorientation_v0.6.1.md",
+      "bytes": 1947,
+      "sha256": "0afe363ecb21beece5a20f00609b333f4c96496f7bb15cce5bd96543f29dbd29"
+    },
+    {
+      "name": "ARCHITECTURE_REVIEW_AND_EVIDENCE_MAP.md",
+      "bytes": 3147,
+      "sha256": "a67aa69bb1fe2fc91badf0560f6f4e845ba3f4ec22fd86fbab716aaa0eebd915"
+    },
+    {
+      "name": "INSTALLATION.md",
+      "bytes": 1735,
+      "sha256": "fa81102b25c9b09f206ddb58d355bb715fa2fbff123f8d1aa0f464ff32d36247"
+    },
+    {
+      "name": "Knowledge_Refinery_Project_Instructions_v0.6.1.md",
+      "bytes": 6045,
+      "sha256": "c01d6384ab4201b932c3b9b0edc984e40bde4c827d05457ea9f5d07bfcdda43c"
+    },
+    {
+      "name": "MIGRATION_AND_ARCHIVE_MANIFEST.md",
+      "bytes": 1482,
+      "sha256": "2dcd1fdb70fa1edb32637983ebd0719a891059cec393ac9168bcd3af0f867d27"
+    },
+    {
+      "name": "OPERATOR_GUIDE.md",
+      "bytes": 1898,
+      "sha256": "ab22c78c71635cebd4ffff569f8153f157cd2748bc43859750e69619ada2849c"
+    },
+    {
+      "name": "RELEASE_NOTE_v0.6.1.md",
+      "bytes": 1353,
+      "sha256": "4ad8e2ff8608cbbfb401cfc0b1542c29341c63682e52ef469969429f5f27a6e7"
+    },
+    {
+      "name": "STATIC_VERIFICATION_REPORT.md",
+      "bytes": 1779,
+      "sha256": "7f073fdca90fe8410278809e189373dc7ecb1451e4368a117f259f977edc9832"
+    }
+  ]
+}
