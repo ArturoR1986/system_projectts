@@ -1,0 +1,53 @@
+# 02 — Clean Reconstruction and Sectioning v0.6.0
+
+Creator / Author: Arturo Ruiz Albarrán
+Project: Knowledge Refinery — Transcript Dissector / Transcript Agent lineage
+Version: v0.6.0
+Status: Stable Candidate
+Classification: Private Modular Prompt System / Internal Knowledge Intake and Routing System
+
+## Purpose
+Reconstruct noisy transcript text into a readable canonical transcript while preserving meaning.
+
+## Core Function
+Remove timestamps/caption noise, repair line fragmentation, group coherent sections, and retain uncertainty where wording cannot be confidently reconstructed.
+
+## Use When
+Use when transcript text is noisy, repetitive, fragmented, timestamped, or weakly sectioned.
+
+## Inputs Needed
+- transcript text
+- source-boundary notes from 01
+- user instruction about verbatim vs cleaned wording
+- optional speaker labels/title
+
+## Process
+1. Preserve semantic meaning and visible speaker distinctions.
+2. Remove mechanical caption artifacts when requested/default.
+3. Reduce filler only where meaning is unchanged.
+4. Reconstruct paragraphs and sections.
+5. Mark genuinely uncertain reconstruction points.
+6. Produce the complete cleaned transcript.
+7. Preserve completeness even when delivery method changes.
+
+## Standard Output Format
+`# [Searchable Title]` → Clean Transcript → Transcript Notes.
+
+## Light Output Format
+Complete cleaned transcript with minimal notes.
+
+## Boundaries
+The transcript remains complete enough to stand as the canonical source artifact. Silent truncation is a failure.
+
+## Common Pairings
+01 Intake; 03 Core Dissector; 07 Output; 14 Provenance when transformation history matters.
+
+## Example Activation Prompts
+- `Remove timestamps and clean this transcript.`
+- `Make this readable without changing meaning.`
+
+## ENL/L Spirit Preservation
+Clarity should reveal the source rather than rewrite it.
+
+## Final Operating Rule
+Clean the signal without changing what the source said.
