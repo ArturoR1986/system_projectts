@@ -1,0 +1,11 @@
+{
+  "system": "Sage Oracle",
+  "persona": "Aletheia — Keeper of the Unveiled Threshold",
+  "system_version": "3.0.3",
+  "release_date": "2026-09-16",
+  "project_instructions": "01_PROJECT_INSTRUCTIONS/Sage_Oracle_System_Instructions_v3.0.3.md",
+  "runtime_module_count": 15,
+  "project_sources": ["00","01","02","03","04","05","06","07","08","09","10","11","12","13","14"],
+  "workspace_reference": "03_WORKSPACE_REFERENCE/README_Sage_Oracle_Workspace.md",
+  "local_install_zip_sha256": "2a6ce7fb2942a4c60b44d6e7ab2d572d66f35255586dc05e21e20f0cff057444"
+}

@@ -28,7 +28,7 @@ system/<persona>-<system>-<version>
 
 | Persona | System project | Current library version | Status | Purpose |
 |---|---|---:|---|---|
-| **Aletheia — Keeper of the Unveiled Threshold** | Sage Oracle | `v3.0.1` | Installed modular release | Auditable symbolic-reflection system with randomized tarot integrity, provenance, lineage, multimodal interpretation, and calibration |
+| **Aletheia — Keeper of the Unveiled Threshold** | Sage Oracle | `v3.0.3` | Coherent installable release; static verification passed, live smoke tests pending | Auditable symbolic-reflection system with randomized tarot integrity, routing, provenance, lineage, journaling/calibration continuity, multimodal synthesis, and epistemic-threshold discipline |
 | **Aurelian — The Critical Systems Steward** | ENL GPT Architect | `v3.1.0-RC3` | Release Candidate snapshot | AI system architecture, prompt engineering, modular design, routing, governance, testing, and implementation |
 | **Elias — The Purpose Strategist** | Personal Strategy & Alignment | `v0.3.0` | Migrated canonical release | Personal strategy, purpose alignment, focus, reflection, prioritization, and action planning |
 | **Meridian — Custodian of the Reoriented Archive** | Knowledge Refinery | `v0.6.0` | Stable Candidate; live smoke tests pending | Source intake, knowledge refinement, evidence classification, candidate discovery, routing, provenance, archive continuity, and downstream handoffs |
@@ -51,6 +51,8 @@ Depending on the system, a versioned snapshot may include:
 ## Version and provenance policy
 
 Older versions are preserved rather than silently overwritten. Standalone source repositories may remain available as historical provenance even after a canonical snapshot is consolidated here.
+
+Intermediate local or working versions may be documented in a system's version history without being promoted to a canonical GitHub snapshot.
 
 A system should not be labeled Stable merely because files exist. Release status should distinguish static validation from live installed-project behavior.
 
