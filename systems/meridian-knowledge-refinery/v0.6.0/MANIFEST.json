@@ -6,7 +6,8 @@
   "baseline": "Transcript Dissector / Transcript Agent v0.5.2",
   "live_tested": false,
   "library_path": "systems/meridian-knowledge-refinery/v0.6.0",
-  "release_archive": "systems/meridian-knowledge-refinery/releases/Meridian_Knowledge_Refinery_v0.6.0_Stable_Candidate.zip",
+  "release_archive": null,
+  "release_archive_status": "Verified binary package is preserved outside GitHub; the versioned GitHub source tree is authoritative.",
   "files": [
     {"name":"00B_Core_Behavior_Reference_v0.6.0.md","bytes":4214,"sha256":"a4c99aa84e6b6a4fee043bc5725b0208d27629d727cf8e4cba22a7a9dca856ab"},
     {"name":"00_Knowledge_Refinery_Main_Router_v0.6.0.md","bytes":6034,"sha256":"c72315fa165edaa17dca1dbf6bc39add3760d1ff8436c6295287579af6593337"},
@@ -33,5 +34,5 @@
     {"name":"RELEASE_NOTE_v0.6.0.md","bytes":938,"sha256":"6f80b912407ec21f2e6ee6fa455e3cda38f65306565a48c877c1fdba1b2693a7"},
     {"name":"STATIC_VERIFICATION_REPORT.md","bytes":753,"sha256":"8a421b2d4eeb39e646349df754aff76c31654b65a7abf28949482cca2ea2b3f6"}
   ],
-  "release_sha256": "d12f228cc4073dc803c4300fda6393c6d9b93b398f17002ad06e228947b03c23"
+  "verified_release_sha256": "d12f228cc4073dc803c4300fda6393c6d9b93b398f17002ad06e228947b03c23"
 }

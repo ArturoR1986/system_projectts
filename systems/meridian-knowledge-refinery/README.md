@@ -29,7 +29,11 @@ Add the numbered source files under `v0.6.0/` as Project Sources. See `v0.6.0/IN
 
 ## Release package
 
-The complete install archive is stored under `releases/`.
+The versioned source tree in this repository is the canonical GitHub snapshot.
+
+The verified complete ZIP package is preserved outside GitHub because the connected GitHub upload path available during this migration could not reliably store the binary without truncation. The expected package SHA-256 is recorded in `v0.6.0/MANIFEST.json` and `releases/README.md`.
+
+Do not treat a reconstructed or manually repackaged ZIP as canonical unless its SHA-256 matches the recorded release hash.
 
 ## Status discipline
 
