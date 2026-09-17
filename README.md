@@ -31,7 +31,7 @@ system/<persona>-<system>-<version>
 | **Aletheia — Keeper of the Unveiled Threshold** | Sage Oracle | `v3.0.3` | Coherent installable release; static verification passed, live smoke tests pending | Auditable symbolic-reflection system with randomized tarot integrity, routing, provenance, lineage, journaling/calibration continuity, multimodal synthesis, and epistemic-threshold discipline |
 | **Aurelian — The Critical Systems Steward** | ENL GPT Architect | `v3.1.0-RC3` | Release Candidate snapshot | AI system architecture, prompt engineering, modular design, routing, governance, testing, and implementation |
 | **Elias — The Purpose Strategist** | Personal Strategy & Alignment | `v0.3.0` | Migrated canonical release | Personal strategy, purpose alignment, focus, reflection, prioritization, and action planning |
-| **Meridian — Custodian of the Reoriented Archive** | Knowledge Refinery | `v0.6.0` | Stable Candidate; live smoke tests pending | Source intake, knowledge refinement, evidence classification, candidate discovery, routing, provenance, archive continuity, and downstream handoffs |
+| **Meridian — Custodian of the Reoriented Archive** | Knowledge Refinery | `v0.6.1` | Coherent Stable Candidate; static and semantic verification passed, live smoke tests pending | Source intake, knowledge refinement, evidence classification, candidate discovery, routing, provenance, archive continuity, and downstream handoffs |
 
 ## What each system directory contains
 

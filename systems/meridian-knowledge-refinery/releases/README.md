@@ -1,5 +1,23 @@
 # Meridian — Knowledge Refinery release packages
 
+## Current verified v0.6.1 package
+
+The canonical GitHub representation of Knowledge Refinery v0.6.1 is the complete versioned source tree under:
+
+`../v0.6.1/`
+
+Expected archive name:
+
+`Meridian_Knowledge_Refinery_v0.6.1_Coherent_Aligned_Package.zip`
+
+Verified SHA-256:
+
+`44069a2c403457c208f5a036781f08732e9db6dac47f7ba0ce835fda96cc3090`
+
+The verified binary ZIP is preserved outside GitHub under the established release policy. The source files in `v0.6.1/` are the canonical reviewable snapshot and are sufficient to inspect, install, and reconstruct the package.
+
+## Historical v0.6.0 package
+
 The canonical GitHub representation of Knowledge Refinery v0.6.0 is the complete versioned source tree under:
 
 `../v0.6.0/`
